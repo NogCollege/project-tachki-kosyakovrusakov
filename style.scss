@@ -2,8 +2,87 @@ body{
     margin: 0;
     padding: 0;
 }
+header {
+    background-color: #181818;
+    display: flex;
+    height: 80px;
+    align-items: center;
+  }
+  
+  
+  .logo h1{
+    color: white;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .nav-menu{
+    width: 1800px;
+    margin: 0 auto;
+  }
+  
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  .knopki{
+    display: flex;
+    color: white;
+    
+  }
+  
+  .knopki li{
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'PP Pangram Sans', sans-serif;
+  }
+   
+  
+  .media{
+    display: flex;
+    li{
+      margin-left: 15px;
+    }
+  }
+  
+  
+  .fotop{
+    display: flex;  
+  }
+  
+  .fotop li{
+    margin-left: 10px;
+  }
+  
+  .nomer{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Unbounded', sans-serif;
+  }
+  
+  .button1{
+    button{
+      border-radius: 8px;
+      padding: 13px 20px;
+      color: white;
+      background-color: black;
+      border-color: white;
+      font-size: 13px;
+      font-weight: 700;
+      font-family: 'PP Pangram Sans', sans-serif;
+    }
+  }
 ul{
     list-style: none;
+}
+.block1{
+    background-image: url(img/бг\ \(5\).png);
 }
 .block7 li{
     display: flex;
@@ -29,7 +108,6 @@ ul{
     list-style: none;
     width: 320px;
 }
-
 .block p{
     margin: 0;
 }
