@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.block7 li{
+    display: flex;
+}
+.b{
+    display: block;
+    padding-left: 20px;
+}
+.block7 p{
+    margin-bottom: -10px;
+}
+
+.block7 ul {
+    column-count: 2;
+    column-gap: 20px; /* Adjust the gap as needed */
+    width: 100%; /* Make columns take full width */
+}
+
+.block7 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 320px;
+}
+
+.block p{
+    margin: 0;
+}
