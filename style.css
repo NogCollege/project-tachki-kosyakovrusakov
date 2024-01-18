@@ -81,6 +81,53 @@ ul {
 
 .block1 {
   background-image: url(img/бг\ \(5\).png);
+  width: 1860px;
+  height: 966px;
+  text-align: center;
+  margin-top: -56px;
+}
+
+.text {
+  color: white;
+  font-size: 45px;
+  font-family: "Unbounded", sans-serif;
+  text-align: center;
+}
+
+.cifirki {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  color: white;
+  margin-top: 70px;
+  text-align: left;
+  font-family: "PP Pangram Sans";
+}
+
+.cifirki li {
+  margin-right: 15px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.block1 hr {
+  width: 1350px;
+  margin-top: 190px;
+}
+
+.cifri {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  align-items: center;
 }
 
 .block7 li {
