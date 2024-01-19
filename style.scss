@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #F4F4F4;
 }
 header {
     background-color: #181818;
@@ -183,6 +184,9 @@ ul{
 .avtopark{
  margin: 55px;
 }
+.avtopark h1{
+  font-size: 48px;
+}
 .block7 li{
     display: flex;
 }
@@ -210,3 +214,55 @@ ul{
 .block p{
     margin: 0;
 }
+.catalog{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.avtopark{
+  margin-top: 200px;
+}
+.dark{
+  display: flex;
+  width: 184px;
+  height: 44px;
+  background-color: #1F1F1F;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.svet{
+  background-color: #FFFFFF;
+  width: 184px;
+  height: 44px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grey{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 184px;
+  background-color: #EAEAEA;
+  border-radius: 15px;
+  height: 44px;
+}
+.catalog img{
+  margin-right: 25px;
+}
+.textov{
+  margin-left: 50px;
+  display: flex;
+}
+.smtr{
+  width: 124px;
+  border: solid 4px #1F1F1F;
+  margin-left: 45px;
+  height: 44px;
+  margin-top: 44px;
+  border-radius: 15px;
+}
+
