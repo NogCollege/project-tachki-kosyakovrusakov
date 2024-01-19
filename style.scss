@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #181818;
 }
 header {
     background-color: #181818;
@@ -86,13 +87,20 @@ ul{
     width: 1860px;
     height: 966px;
     text-align: center;
-    margin-top: -56px;
+    margin-top: -75px;
 }
 .text{
   color: white;
   font-size: 45px;
   font-family: 'Unbounded', sans-serif;
   text-align: center;
+}
+.text h1{
+  padding-top: 94px;
+  font-size: 90px;
+}
+.text p{
+  font-size: 24px;
 }
 .cifirki{
     display: flex;
@@ -111,10 +119,20 @@ ul{
     justify-content: center;
     align-items: center;
     list-style: none;
+    position: relative;
 }
 .block1 hr{
   width: 1350px;
-  margin-top: 190px;
+  margin-top: 50px;
+}
+.block2{
+  position: absolute;
+  left: 15%;
+  bottom: -28%;
+  width: 1320px;
+  height: 271px;
+  background-color: white;
+  justify-content: center;
 }
 .cifri{
   display: flex;
@@ -125,6 +143,30 @@ ul{
   width: 30px;
   height: 30px;
   align-items: center;
+}
+.from {
+  display: flex;
+  margin-right: 50px;
+}
+.forma{
+  width: 242px;
+  height: 76px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+.gold{
+  background-image: linear-gradient(#9F7437,#E3D293,#9F7437);
+  width: 201px;
+  height: 79px;
+  border-radius: 25px;
+}
+.form{
+  column-count: 3;
+  column-gap: 50px;
+}
+.avtopark{
+ margin: 55px;
 }
 .block7 li{
     display: flex;
@@ -139,8 +181,8 @@ ul{
 
 .block7 ul {
     column-count: 2;
-    column-gap: 20px; /* Adjust the gap as needed */
-    width: 100%; /* Make columns take full width */
+    column-gap: 20px;
+    width: 100%; 
 }
 
 .block7 li {
