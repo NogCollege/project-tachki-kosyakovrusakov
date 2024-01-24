@@ -191,16 +191,24 @@ ul {
 .opis {
   display: flex;
   flex-direction: row;
-  margin-right: 25px;
-}
-
-.odin {
-  margin: 50px;
 }
 
 .knopkaaa {
   display: flex;
   flex-direction: row;
+}
+
+.knopkaaa button {
+  background-image: linear-gradient(#E3D293, #9F7437);
+  color: white;
+  width: 135px;
+  height: 40px;
+  border: 0px;
+  font-family: "PP Pangram Sans";
+}
+
+.knopkaaa p {
+  padding-left: 25px;
 }
 
 .gold {
@@ -231,6 +239,7 @@ ul {
 
 .avtopark {
   margin: 55px;
+  margin-left: 200px;
 }
 
 .avtopark h1 {
@@ -282,8 +291,8 @@ ul {
 
 .dark {
   display: flex;
-  width: 184px;
-  height: 44px;
+  width: 204px;
+  height: 74px;
   background-color: #1F1F1F;
   color: #FFFFFF;
   justify-content: center;
@@ -293,8 +302,8 @@ ul {
 
 .svet {
   background-color: #FFFFFF;
-  width: 184px;
-  height: 44px;
+  width: 204px;
+  height: 74px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -305,10 +314,10 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 184px;
+  width: 204px;
+  height: 74px;
   background-color: #EAEAEA;
   border-radius: 15px;
-  height: 44px;
 }
 
 .catalog img {
@@ -333,8 +342,23 @@ ul {
   width: 275px;
   min-height: 350px;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
+  display: block;
   flex-direction: column;
   border-radius: 4px;
-  transition: 0.2s;
+}
+
+.odin h4 {
+  margin-left: 25px;
+}
+
+.odin hr {
+  width: 80%;
+}
+
+.opis p {
+  margin-left: 25px;
+}
+
+.knopkaaa {
+  margin-left: 25px;
 }/*# sourceMappingURL=style.css.map */
