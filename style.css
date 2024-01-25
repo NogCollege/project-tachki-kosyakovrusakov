@@ -276,6 +276,12 @@ ul {
   width: 320px;
 }
 
+.f {
+  font-size: 48px;
+  width: 400px;
+  padding-left: 40px;
+}
+
 .block p {
   margin: 0;
 }
@@ -557,4 +563,78 @@ ul {
   width: 394px;
   font-family: "PP Pangram Sans";
   padding-left: 25px;
+}
+
+.blocku {
+  margin-top: 40px;
+}
+.blocku .uslygi {
+  display: flex;
+  padding-top: 50px;
+}
+.blocku .bl5 p {
+  font-size: 20px;
+  width: 263px;
+}
+.blocku .bl5 {
+  padding-left: 25px;
+}
+.blocku .usl {
+  font-size: 48px;
+  font-family: "PP Pangram Sans";
+  padding-left: 65px;
+  padding-top: 25px;
+}
+
+.sect9 {
+  background-image: url(img/bg\ \(14\).png);
+  color: white;
+  height: 1459px;
+}
+.sect9 .angl {
+  display: flex;
+  padding-top: 90px;
+}
+.sect9 .rus {
+  display: flex;
+  padding-top: 50px;
+}
+.sect9 .s {
+  font-size: 48px;
+  font-family: "Unbounded";
+}
+.sect9 .p {
+  font-size: 28px;
+  font-family: "PP Pangram Sans";
+}
+.sect9 .greyyy {
+  color: gray;
+  font-size: 18px;
+  font-family: "PP Pangram Sans";
+}
+.sect9 .photo-s9 {
+  width: 560px;
+  height: 580px;
+}
+.sect9 .text-s9 {
+  width: 648px;
+  padding-right: 60px;
+}
+.sect9 .greyyyy {
+  color: gray;
+  font-size: 18px;
+  font-family: "PP Pangram Sans";
+}
+.sect9 .text-s8 {
+  width: 648px;
+  padding-left: 60px;
+}
+.sect9 .bel {
+  color: white;
+}
+.sect9 .li {
+  display: flex;
+}
+.sect9 .be {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

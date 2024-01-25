@@ -247,6 +247,11 @@ ul{
     list-style: none;
     width: 320px;
 }
+.f{
+  font-size: 48px;
+  width: 400px;
+  padding-left: 40px;
+}
 .block p{
     margin: 0;
 }
@@ -516,4 +521,77 @@ ul{
       font-family: 'PP Pangram Sans';
       padding-left: 25px;
     }
+}
+.blocku{
+  margin-top: 40px;
+    .uslygi{
+      display: flex;
+      padding-top: 50px;
+    }
+    .bl5 p{
+      font-size: 20px;
+      width: 263px;
+    }
+    .bl5{
+    padding-left: 25px;
+    }
+    .usl{
+      font-size: 48px;
+      font-family: 'PP Pangram Sans';
+      padding-left: 65px;
+      padding-top: 25px;
+    }
+}
+.sect9{
+background-image: url(img/bg\ \(14\).png);
+color: white;
+height: 1459px;
+  .angl{
+    display: flex;
+    padding-top: 90px;
+
+  }
+  .rus{
+    display: flex;
+    padding-top: 50px;
+  }
+  .s{
+    font-size: 48px;
+    font-family: "Unbounded";
+  }
+  .p{
+    font-size: 28px;
+    font-family: 'PP Pangram Sans';
+  }
+  .greyyy{
+    color: gray;
+    font-size: 18px;
+    font-family: 'PP Pangram Sans';
+  }
+  .photo-s9{
+    width: 560px;
+    height: 580px;
+  }
+  .text-s9{
+    width: 648px;
+    padding-right: 60px;
+  }
+  .greyyyy{
+    color: gray;
+    font-size: 18px;
+    font-family: 'PP Pangram Sans';
+  }
+  .text-s8{
+    width: 648px;
+    padding-left: 60px;
+  }
+  .bel{
+    color: white;
+  }
+  .li{
+    display: flex;
+  }
+  .be{
+    display: flex;
+  }
 }
