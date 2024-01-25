@@ -209,6 +209,7 @@ ul {
 
 .knopkaaa p {
   padding-left: 25px;
+  font-family: "PP Pangram Sans";
 }
 
 .gold {
@@ -387,6 +388,8 @@ ul {
 }
 .block3 h1 {
   font-size: 48px;
+  padding-top: 120px;
+  font-family: "Unbounded";
 }
 .block3 h3 {
   width: 760px;
@@ -399,8 +402,57 @@ ul {
 }
 .block3 .opisan {
   font-family: "PP Pangram Sans";
-  float: left;
+  margin-top: 10px;
+  font-size: 28px;
+}
+.block3 .dom {
+  display: flex;
+  justify-content: space-around;
 }
 .block3 .opisan p {
   width: 760px;
+  font-size: 18px;
+}
+.block3 button {
+  width: 424px;
+  height: 76px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.block3 .pole {
+  width: 424px;
+  height: 76px;
+  border-radius: 15px;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+.block3 .formaa {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.block3 .razmer {
+  width: 400px;
+  font-size: 14px;
+}
+
+.block4 .arenda {
+  display: flex;
+  justify-content: space-around;
+}
+.block4 img {
+  width: 648px;
+  height: 390px;
+}
+.block4 h1 {
+  font-size: 48px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Unbounded";
+}
+.block4 .bl1 {
+  background-color: white;
+  width: 648px;
+  border-radius: 25px;
+  height: 584px;
 }/*# sourceMappingURL=style.css.map */

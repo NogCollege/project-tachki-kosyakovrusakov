@@ -192,6 +192,7 @@ ul{
 }
 .knopkaaa p{
   padding-left:  25px;
+  font-family: 'PP Pangram Sans'
 }
 
 
@@ -342,6 +343,8 @@ ul{
   color: white;
     h1{
       font-size: 48px;
+      padding-top: 120px;
+      font-family: "Unbounded";
     }
     h3{
       width: 760px;
@@ -354,9 +357,61 @@ ul{
     }
     .opisan{
       font-family: 'PP Pangram Sans';
-      float: left;
+      margin-top: 10px;
+      font-size: 28px;
+
+    }
+    .dom{
+      display: flex;
+      justify-content: space-around;
+
     }
     .opisan p{
       width: 760px;
+      font-size: 18px;
     }
+    button{
+      width: 424px;
+      height: 76px;
+      border-radius: 15px;
+      margin-top: 15px;
+    }
+    .pole{
+      width: 424px;
+      height: 76px;
+      border-radius: 15px;
+      margin-top: 15px;
+      padding-left: 15px;
+    }
+    .formaa{
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+    }
+    .razmer{
+      width: 400px;
+      font-size: 14px;
+    }
+}
+.block4{
+    .arenda{
+      display: flex;
+      justify-content: space-around;
+    }
+    img{
+      width: 648px;
+      height: 390px;
+    }
+    h1{
+      font-size: 48px;
+      margin-top: 40px;
+      padding-bottom: 40px;
+      font-family: "Unbounded";
+    }
+    .bl1{
+      background-color: white;
+      width: 648px;
+      border-radius: 25px;
+      height: 584px;
+      }
 }
