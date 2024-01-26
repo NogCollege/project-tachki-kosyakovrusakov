@@ -2,7 +2,10 @@ body{
     margin: 0;
     padding: 0;
     background-color: #F4F4F4;
+    max-width: 1920px;
+    overflow-x: hidden;
 }
+
 .container{
   width: 1320px;
   margin: 0 auto;
@@ -314,7 +317,9 @@ ul{
   display: block;
   flex-direction: column;
   border-radius: 4px;
-
+  background-color: white;
+  padding-top: 25px;
+  margin-bottom: 25px;
 }
 .odin h4{
   margin-left: 25px;
@@ -343,6 +348,7 @@ ul{
 }
 .block3{
   background-image: url(img/бг\ \(4\).png);
+  background-repeat: no-repeat;
   width: 100%;
   height: 764px;
   color: white;
@@ -476,6 +482,7 @@ ul{
 }
 .block6{
   background-image: url(img/бг\ \(6\).png);
+  background-repeat: no-repeat;
   width: 100%;
   height: 820px;
   color: white;
@@ -543,55 +550,243 @@ ul{
     }
 }
 .sect9{
-background-image: url(img/bg\ \(14\).png);
-color: white;
-height: 1459px;
-  .angl{
-    display: flex;
-    padding-top: 90px;
+  background-image: url(img/bg\ \(14\).png);
+  background-repeat: no-repeat;
+  color: white;
+  height: 1459px;
+    .angl{
+      display: flex;
+      padding-top: 90px;
 
+    }
+    .rus{
+      display: flex;
+      padding-top: 50px;
+    }
+    .s{
+      font-size: 48px;
+      font-family: "Unbounded";
+    }
+    .p{
+      font-size: 28px;
+      font-family: 'PP Pangram Sans';
+    }
+    .greyyy{
+      color: gray;
+      font-size: 18px;
+      font-family: 'PP Pangram Sans';
+    }
+    .photo-s9{
+      width: 560px;
+      height: 580px;
+    }
+    .text-s9{
+      width: 648px;
+      padding-right: 60px;
+    }
+    .greyyyy{
+      color: gray;
+      font-size: 18px;
+      font-family: 'PP Pangram Sans';
+    }
+    .text-s8{
+      width: 648px;
+      padding-left: 60px;
+    }
+    .bel{
+      color: white;
+    }
+    .li{
+      display: flex;
+      padding-left: 15px;
+    
+    }
+    .be{
+      display: flex;
+    }
+    .iconki{
+      padding-top: 20px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .li p{
+      font-size: 13px;
+      font-family: 'PP Pangram Sans';
+      width: 152px;
+    }
+}
+.sect10{
+  width: 1860px;
+  background-color: white;
+  border-radius: 10px;
+  height: 280px;
+  .s10{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 60px;
+      align-items: center;
   }
-  .rus{
-    display: flex;
-    padding-top: 50px;
+}
+.sect11{
+  padding-top: 90px;
+  .s11{
+      display: flex;
+
+      h1{
+          padding-top: 15px;
+          font-family: 'Unbounded';
+          font-size: 48px;
+          color: #1F1F1F;
+      }
+
+      p{
+          padding-top: 50px;
+          font-family: 'PP Pangram Sans';
+          font-size: 18px;
+          color: #9F9F9F;
+          width: 499px;
+      }
+
+      b{
+          padding-top: 40px;
+          font-family: 'Unbounded';
+          font-size: 20px;
+          color: #1F1F1F;
+          padding-bottom: 60px;
+      }
+
+      .fot{
+          margin-top:  20px;
+          background-color: #FFFFFF;
+          width: 448px;
+          height: 76px;
+          border-radius: 10px;
+          border: solid 0px;
+          padding-left: 20px;
+      }
+
+      button{
+          margin-top: 20px;
+          width: 468px;
+          height: 76px;
+          background-color: #1F1F1F;
+          border-radius: 10px;
+          color: #FFFFFF;
+      }
+
+      .galoch{
+          padding-top: 0px;
+          font-size: 14px;
+          width: 321px;
+          padding-left: 10px;
+          span{
+              color: #131313;
+          }
+      }
+
+      .forms{
+          padding-top: 30px;
+          display: flex;
+      }
+
+      .s11-text{
+          display: flex;
+          flex-direction: column;
+          padding-left: 80px;
+      }
   }
-  .s{
-    font-size: 48px;
-    font-family: "Unbounded";
+}
+footer{
+  padding-top: 90px;
+  background-color: #1D1D1D;
+
+
+  .fot{
+      display: flex;
+      justify-content: space-between;
+      color: #FFFFFF;
+
+      .fot1{
+          h1{
+              font-family: 'Inter';
+              font-size: 40px;
+          }
+
+          .nom{
+              padding-top: 70px;
+              display: flex;
+              p{
+                  font-size: 12px;
+                  font-family: 'PP Pangram Sans';
+                  color: #AFAFAF;
+              }
+              h3{
+                  font-size: 18px;
+                  font-family: 'Unbounded';
+              }
+
+              button{
+                  border-radius: 8px;
+                  margin-left: 20px;
+                  width: 149px;
+                  height: 44px;
+                  color: #FFFFFF;
+                  background-color: #1D1D1D;
+                  border: solid 3px #FFFFFF;
+              }
+          }
+
+          .adress{
+              font-family: 'PP Pangram Sans';
+              font-size: 15px;
+              color: #AFAFAF;
+              padding-top: 30px;
+          }
+
+          .poch{
+              padding-top: 10px;
+              padding-left: 22vh;
+              font-family: 'PP Pangram Sans';
+              font-size: 15px;
+              color: #FFFFFF;
+          }
+
+          .soceti{
+              padding-top: 30px;
+              padding-left: 27vh;
+              font-family: 'PP Pangram Sans';
+              .p2{
+                  padding-left: 7px;
+              }
+          }
+      }
+
+      .fot2{
+          ul{
+              display: flex;
+          }
+          ul p{
+            color: gray;
+            font-family: 'PP Pangram Sans';
+          }
+          .g2{
+            padding-left: 30px;
+          }
+          .g3{
+            padding-left: 30px;
+          }
+          p:hover{
+            opacity: 1;
+            color: white;
+          }
+      }
+      .chay{
+        display: flex;
+        justify-content: space-between;
+      }
   }
-  .p{
-    font-size: 28px;
-    font-family: 'PP Pangram Sans';
-  }
-  .greyyy{
-    color: gray;
-    font-size: 18px;
-    font-family: 'PP Pangram Sans';
-  }
-  .photo-s9{
-    width: 560px;
-    height: 580px;
-  }
-  .text-s9{
-    width: 648px;
-    padding-right: 60px;
-  }
-  .greyyyy{
-    color: gray;
-    font-size: 18px;
-    font-family: 'PP Pangram Sans';
-  }
-  .text-s8{
-    width: 648px;
-    padding-left: 60px;
-  }
-  .bel{
-    color: white;
-  }
-  .li{
-    display: flex;
-  }
-  .be{
-    display: flex;
-  }
+}
+.p:hover{
+  opacity: 1;
+  color: white;
 }
