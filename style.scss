@@ -468,6 +468,9 @@ ul{
       height: 76px;
       border-radius: 15px;
       margin-top: 15px;
+      background: rgba(0, 0, 0, 0);
+      color: white;
+      border-color: white;
     }
     .pole{
       width: 424px;
@@ -877,6 +880,9 @@ footer{
   opacity: 1;
   color: white;
 }
+.greyy{
+  color: gray;
+}
 @media screen and (max-width: 320px ) {
   body{
     max-width: 320px;
@@ -904,6 +910,7 @@ footer{
     margin-top: 20px;
     width: 280px;
   }
+ 
   .text p{
     font-size: 16px;
     width: 280px;
@@ -1023,14 +1030,25 @@ footer{
       width: 280px;
       height: 391px;
 
-    .cen button{
-        width: 220px;
-        height: 40px;
-      }
-    .cen p{
-      padding-top: 25px;
-      padding-left: 10px;
-    }
+
+        .cen{
+          display: flex;
+          flex-direction: column;
+          padding-left: 35px;
+        
+          button{
+            width: 220px;
+            height: 40px;
+          }
+
+          p{
+            padding-left: 45px;
+            padding-top: 15px;
+            span{
+                font-weight: 800;
+            }
+          }
+        }
 
       .text-s2{
           p{
@@ -1062,5 +1080,91 @@ footer{
       display: none;
   }
 }
-
+.textovic{
+  h1{
+    font-size: 18px;
+    width: 280px;
+    margin-left: -30px;
+  }
+  p{
+    font-size: 14px;
+    width: 280px;
+    margin-left: -30px;
+  }
+}
+.block3{
+  background-image: url(img/бг\ \(1\).png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 934px;
+    .button{
+      width: 280px;
+      height: 76px;
+    }
+    .dom{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    h1{
+      font-size: 18px;
+      margin-left: 0px;
+      padding-top: 40px;
+      width: 208px;
+      padding-left: 15px;
+    }
+    h3{
+      font-size: 18px;
+      margin-left: 0px;
+      width: 280px;
+      padding-left: 15px;
+    }
+    .pole{
+      width: 280px;
+      height: 76px;
+      padding-left: 10px;
+    }
+}
+  .block3 button{
+    width: 280px;
+    height: 76px;
+    padding-left: 10px;
+  }
+.block3 .opisan p {
+  font-size: 14px;
+  width: 280px;
+  padding-left: 15px;
+}
+.block3 .razmer {
+  font-size: 15px;
+  width: 246px;
+  padding-left: 15px;
+}
+.block4{
+  h1{
+    font-size: 18px;
+    width: 250px;
+  }
+  .arenda{
+    display: flex;
+    flex-direction: column;
+  }
+  .bl1{
+    width: 280px;
+    height: 418px;
+    margin-bottom: 25px;
+  }
+  .bl1 p{
+    width: 200px;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  img{
+    width: 280px;
+    height: 190px;
+  }
+  .bl1 h2{
+      width: 194px;
+      font-size: 16px;
+  }
+}
 }

@@ -494,6 +494,9 @@ ul {
   height: 76px;
   border-radius: 15px;
   margin-top: 15px;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  border-color: white;
 }
 .block3 .pole {
   width: 424px;
@@ -885,6 +888,10 @@ footer .fot .chay {
   color: white;
 }
 
+.greyy {
+  color: gray;
+}
+
 @media screen and (max-width: 320px) {
   body {
     max-width: 320px;
@@ -1030,13 +1037,21 @@ footer .fot .chay {
     width: 280px;
     height: 391px;
   }
+  .katal li .cen {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+  }
   .katal li .cen button {
     width: 220px;
     height: 40px;
   }
   .katal li .cen p {
-    padding-top: 25px;
-    padding-left: 10px;
+    padding-left: 45px;
+    padding-top: 15px;
+  }
+  .katal li .cen p span {
+    font-weight: 800;
   }
   .katal li .text-s2 {
     padding-left: 35px;
@@ -1060,5 +1075,88 @@ footer .fot .chay {
   }
   .katal .vis {
     display: none;
+  }
+  .textovic h1 {
+    font-size: 18px;
+    width: 280px;
+    margin-left: -30px;
+  }
+  .textovic p {
+    font-size: 14px;
+    width: 280px;
+    margin-left: -30px;
+  }
+  .block3 {
+    background-image: url(img/бг\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 934px;
+  }
+  .block3 .button {
+    width: 280px;
+    height: 76px;
+  }
+  .block3 .dom {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .block3 h1 {
+    font-size: 18px;
+    margin-left: 0px;
+    padding-top: 40px;
+    width: 208px;
+    padding-left: 15px;
+  }
+  .block3 h3 {
+    font-size: 18px;
+    margin-left: 0px;
+    width: 280px;
+    padding-left: 15px;
+  }
+  .block3 .pole {
+    width: 280px;
+    height: 76px;
+    padding-left: 10px;
+  }
+  .block3 button {
+    width: 280px;
+    height: 76px;
+    padding-left: 10px;
+  }
+  .block3 .opisan p {
+    font-size: 14px;
+    width: 280px;
+    padding-left: 15px;
+  }
+  .block3 .razmer {
+    font-size: 15px;
+    width: 246px;
+    padding-left: 15px;
+  }
+  .block4 h1 {
+    font-size: 18px;
+    width: 250px;
+  }
+  .block4 .arenda {
+    display: flex;
+    flex-direction: column;
+  }
+  .block4 .bl1 {
+    width: 280px;
+    height: 418px;
+    margin-bottom: 25px;
+  }
+  .block4 .bl1 p {
+    width: 200px;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .block4 img {
+    width: 280px;
+    height: 190px;
+  }
+  .block4 .bl1 h2 {
+    width: 194px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
