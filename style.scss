@@ -309,27 +309,107 @@ ul{
   margin-top: 44px;
   border-radius: 15px;
 }
+.katal{
+  display: flex;
+  flex-direction: row;
+  column-count: 2;
 
-.odin {
-  width: 275px;
-  min-height: 350px;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
-  display: block;
-  flex-direction: column;
-  border-radius: 4px;
-  background-color: white;
-  padding-top: 25px;
-  margin-bottom: 25px;
+
+  li{
+      display: flex;
+      width: 424px;
+      height: 483px;
+      background-color: #FFFFFF;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px;
+      margin-top: 30px;
+      margin-left: 20px;
+      
+
+      img{
+          width: 286px;
+          height: 153px;
+          
+      }
+
+      h4{
+          font-size:  20px;
+          font-family: 'PP Pangram Sans';
+          padding-top: 20px;
+          padding-left: 40px;
+      }
+      .text-s2{
+          display: flex;
+          flex-direction: row;
+          padding-top: 15px;
+          padding-left: 40px;
+
+          img{
+              width: 25px;
+              height: 18px;
+              padding-left: 15px;
+              padding-right: 15px;
+          }
+
+          p{
+              font-size: 13px;
+              font-family: 'PP Pangram Sans';
+              color: #707070;
+          }
+          .pa{
+              padding-left: 10px;
+          }
+      }
+
+      .cen{
+          display: flex;
+          flex-direction: row;
+          padding-top: 15px;
+          padding-left: 40px;
+          button{
+              width: 135px;
+              height: 40px;
+              color: white;
+              border-radius: 6px;
+              border: solid 0px ;
+              font-family: 'PP Pangram Sans';
+              font-size: 12px;
+              background: linear-gradient(to top right,#9F7437, #E3D293,);
+          }
+
+          span{
+              font-size: 20px;
+              color: black;
+          }
+
+          p{
+              font-size: 13px;
+              font-family: 'PP Pangram Sans';
+              color: #707070;
+              padding-left: 50px;
+              padding-top: 5px;
+
+          }
+      }
+
+      .img-kat{
+          display: flex;
+          align-items: center;
+          justify-content: center
+          
+      }
+
+      hr{
+          width: 80%;
+          margin-top: 20px;
+          margin-left: 10%;
+          color: #EBEBEB;
+      }
+
+  }
 }
-.odin h4{
-  margin-left: 25px;
-}
-.odin hr{
-  width: 80%;
-}
-.opis p{
-  margin-left: 25px;
-}
+
 .knopkaaa{
   margin-left: 25px;
 }
@@ -882,4 +962,105 @@ footer{
     width: 240px;
     height: 56px;
   }
+  .no-vid{
+    display: none;
+  }
+  .avtopark{
+    margin-left: 0px;
+  }
+ .avtopark h1{
+  font-size: 18px;
+ }
+ .smtr{
+  margin-top: 15px;
+  margin-left: 0px;
+ }
+ .dark{
+  width: 159px;
+  height: 36px;
+  margin-left: 0px;
+ }
+ .s2{
+  margin-left: 5px;
+  width: 129px;
+  height: 36px;
+ }
+ .s1{
+  margin-left: 5px;
+  width: 112px;
+  height: 36px;
+  
+ }
+ .s3{
+  margin-left: 5px;
+  width: 143px;
+  height: 36px;
+ }
+ .s4{
+  margin-left: 5px;
+  width: 120px;
+  height: 36px;
+ }
+ .catalog{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 290px;
+  height: 136px;
+ }
+ ul{
+  padding-left: 15px;
+ }
+ .catalog img{
+  margin-right: 10px;
+ }
+ .katal{
+  display: flex;
+  flex-direction: column;
+  li{
+      display: flex;
+      margin-left: 0px;
+      width: 280px;
+      height: 391px;
+
+    .cen button{
+        width: 220px;
+        height: 40px;
+      }
+    .cen p{
+      padding-top: 25px;
+      padding-left: 10px;
+    }
+
+      .text-s2{
+          p{
+              font-size: 12px;
+              width: 110px;
+              height: 20px;
+          }
+
+          .pa{
+              width: 73px;
+          }
+
+          padding-left: 35px;
+      }
+
+      h4{
+          width: 146px;
+          height: 20px;
+          font-size: 16px;
+      }
+
+      img{
+          width: 204px;
+          height: 109px;
+      }
+  }
+
+  .vis{
+      display: none;
+  }
+}
+
 }
