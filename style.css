@@ -256,6 +256,7 @@ ul {
 .b {
   display: block;
   padding-left: 20px;
+  width: 184px;
 }
 
 .block7 p {
@@ -1250,7 +1251,7 @@ footer .fot .chay {
   .block7 .f {
     font-size: 18px;
     width: 150px;
-    margin-left: -35px;
+    margin-left: -25px;
   }
   .block7 ul {
     display: flex;
@@ -1263,10 +1264,90 @@ footer .fot .chay {
   }
   .block7 h1 {
     font-size: 16px;
-    width: 85px;
   }
   .block7 .b {
     font-size: 14px;
-    width: 173px;
+    width: 184px;
+  }
+  .sect9 {
+    background-image: url(img/бг\ \(3\).png);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 1566px;
+  }
+  .sect9 .angl {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-bottom: -350px;
+  }
+  .sect9 .text-s9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+  }
+  .sect9 .s {
+    font-size: 18px;
+    width: 250px;
+    padding-left: 5px;
+  }
+  .sect9 .p {
+    font-size: 18px;
+    width: 280px;
+    padding-left: 25px;
+  }
+  .sect9 .greyyy {
+    font-size: 18px;
+    width: 280px;
+    padding-left: 25px;
+  }
+  .sect9 .k {
+    width: 280px;
+    height: 210px;
+    padding-left: 135px;
+  }
+  .sect9 .rus {
+    display: flex;
+    flex-direction: column;
+  }
+  .sect9 .iconki img {
+    width: 21px;
+    height: 21px;
+  }
+  .sect9 .li {
+    display: flex;
+    flex-direction: column;
+  }
+  .sect9 .h {
+    width: 280px;
+    height: 210px;
+    padding-left: 0px;
+  }
+  .sect9 .j {
+    width: 250px;
+    font-size: 18px;
+    padding-left: 150px;
+  }
+  .sect9 .greyyyy {
+    font-size: 14px;
+    width: 280px;
+    padding-left: 150px;
+  }
+  .sect9 .iconki {
+    padding-left: 10px;
+  }
+  .sect10 {
+    width: 320px;
+    height: 347px;
+  }
+  .sect10 .s10 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 347px;
   }
 }/*# sourceMappingURL=style.css.map */
