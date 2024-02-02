@@ -286,6 +286,9 @@ ul{
   justify-content: center;
   align-items: center;
 }
+.svet:hover{
+  background-color: gray;
+}
 .grey{
   display: flex;
   justify-content: center;
@@ -849,6 +852,8 @@ footer{
               .p2{
                   padding-left: 7px;
               }
+              
+          }
           }
       }
 
@@ -876,7 +881,6 @@ footer{
         justify-content: space-between;
       }
   }
-}
 .p:hover{
   opacity: 1;
   color: white;
@@ -1362,6 +1366,96 @@ footer{
       flex-wrap: wrap;
       width: 320px;
       height: 347px;
+      justify-content: center;
     }
+  }
+  .sect11{
+    padding-top: 30px;
+    .s11{
+      display: flex;
+      flex-direction: column-reverse;
+      img{
+        width: 144px;
+        height: 225px;
+      }
+      h1{
+      padding-left: 20px;
+       font-size: 18px;
+       width: 250px; 
+      }
+      p{
+        font-size: 14px;
+        width: 280px;
+        padding-left: 20px;
+        padding-top: 0px;
+      }
+      b{
+        font-size: 18px;
+        width: 202px;
+        padding-left: 20px;
+        padding-top: 0px;
+        padding-bottom: 40px
+      }
+      .fot{
+        width: 280px;
+        height: 76px;
+        padding-left: 0px;
+      }
+      .fot::placeholder{
+        padding-left: 50px;
+      }
+      button{
+        width: 280px;
+        height: 76px;
+      }
+    }
+  }
+  footer{
+    width: 320px;
+    height: 806px;
+
+    .fot{
+      display: flex;
+      flex-direction: column;
+      .fot1{
+        h1{
+          font-size: 28px;
+          padding-left: 20px;
+        }
+        .nom{
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+          padding-top: 0px;
+          button{
+            width: 280px;
+            height: 56px;
+            margin-left: -15px;
+          }
+        }
+        .poch{
+          padding-left: 0px;
+        }
+        .soceti{
+          padding-left: 0px;
+        }
+       
+      }
+      .fot2{
+        .g2{
+          padding-left: 0px;
+        }
+        .g3{
+          padding-left: 0px;
+        }
+      }
+    }
+    ul{
+      display: flex;
+      flex-direction: column;
+    }
+  .p{
+    display: none;
+  }
   }
 }
