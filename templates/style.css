@@ -87,7 +87,7 @@ ul {
   list-style: none;
 }
 
-.block1 {
+.promo {
   background-image: url(img/бг\ \(5\).png);
   width: 1860px;
   height: 966px;
@@ -129,12 +129,12 @@ ul {
   position: relative;
 }
 
-.block1 hr {
+.promo hr {
   width: 1350px;
   margin-top: 50px;
 }
 
-.block2 {
+.Order {
   position: absolute;
   left: 15%;
   bottom: -25%;
@@ -144,7 +144,7 @@ ul {
   justify-content: center;
   border-radius: 35px;
 }
-.block2 h1 {
+.Order h1 {
   margin-top: 25px;
   margin-left: 4opx;
 }
@@ -249,7 +249,7 @@ ul {
   font-size: 48px;
 }
 
-.block7 li {
+.prichini li {
   display: flex;
 }
 
@@ -259,11 +259,11 @@ ul {
   width: 184px;
 }
 
-.block7 p {
+.prichini p {
   margin-bottom: -10px;
 }
 
-.block7 ul {
+.prichini ul {
   -moz-column-count: 2;
        column-count: 2;
   -moz-column-gap: 20px;
@@ -271,7 +271,7 @@ ul {
   width: 100%;
 }
 
-.block7 li {
+.prichini li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -460,41 +460,41 @@ ul {
   width: 1208px;
 }
 
-.block3 {
+.rental {
   background-image: url(img/бг\ \(4\).png);
   background-repeat: no-repeat;
   width: 100%;
   height: 764px;
   color: white;
 }
-.block3 h1 {
+.rental h1 {
   font-size: 48px;
   padding-top: 120px;
   font-family: "Unbounded";
 }
-.block3 h3 {
+.rental h3 {
   width: 760px;
 }
-.block3 .greyy {
+.rental .greyy {
   color: gray;
 }
-.block3 .white {
+.rental .white {
   color: white;
 }
-.block3 .opisan {
+.rental .opisan {
   font-family: "PP Pangram Sans";
   margin-top: 10px;
   font-size: 28px;
 }
-.block3 .dom {
+.rental .dom {
   display: flex;
   justify-content: space-around;
 }
-.block3 .opisan p {
+.rental .opisan p {
   width: 760px;
   font-size: 18px;
 }
-.block3 button {
+.rental button {
   width: 424px;
   height: 76px;
   border-radius: 15px;
@@ -503,51 +503,51 @@ ul {
   color: white;
   border-color: white;
 }
-.block3 .pole {
+.rental .pole {
   width: 424px;
   height: 76px;
   border-radius: 15px;
   margin-top: 15px;
   padding-left: 15px;
 }
-.block3 .formaa {
+.rental .formaa {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
 }
-.block3 .razmer {
+.rental .razmer {
   width: 400px;
   font-size: 14px;
 }
 
-.block4 .arenda {
+.premium .arenda {
   display: flex;
   justify-content: space-around;
 }
-.block4 img {
+.premium img {
   width: 648px;
   height: 390px;
 }
-.block4 h1 {
+.premium h1 {
   font-size: 48px;
   margin-top: 40px;
   padding-bottom: 40px;
   font-family: "Unbounded";
 }
-.block4 .bl1 {
+.premium .bl1 {
   background-color: white;
   width: 648px;
   border-radius: 25px;
   height: 584px;
   border-radius: 15px;
 }
-.block4 .bl1 h2 {
+.premium .bl1 h2 {
   font-family: "PP Pangram Sans";
   font-size: 20px;
   padding-left: 45px;
   padding-top: 25px;
 }
-.block4 .bl1 p {
+.premium .bl1 p {
   font-family: "PP Pangram Sans";
   font-size: 16px;
   width: 402px;
@@ -555,18 +555,18 @@ ul {
   padding-top: 25px;
 }
 
-.block5 .shagi {
+.steps .shagi {
   display: flex;
   justify-content: space-around;
 }
-.block5 .ger {
+.steps .ger {
   width: 711px;
   text-align: center;
   font-size: 48px;
   font-family: "Unbounded";
   margin-bottom: 50px;
 }
-.block5 .bl2 {
+.steps .bl2 {
   background-color: white;
   width: 424px;
   height: 272px;
@@ -575,206 +575,206 @@ ul {
   padding-top: -25px;
   border-radius: 15px;
 }
-.block5 .bl2 h5 {
+.steps .bl2 h5 {
   font-size: 20px;
   font-family: "PP Pangram Sans";
   padding-left: 45px;
 }
-.block5 .bl2 p {
+.steps .bl2 p {
   width: 234px;
   font-size: 16px;
   font-family: "PP Pangram Sans";
   padding-left: 45px;
   color: gray;
 }
-.block5 .b {
+.steps .b {
   padding-left: 45px;
 }
-.block5 .bl2 span {
+.steps .bl2 span {
   color: #181818;
 }
 
-.block6 {
+.skidocki {
   background-image: url(img/бг\ \(6\).png);
   background-repeat: no-repeat;
   width: 100%;
   height: 820px;
   color: white;
 }
-.block6 .skidki {
+.skidocki .skidki {
   display: flex;
 }
-.block6 .bl3 h1 {
+.skidocki .bl3 h1 {
   font-size: 48px;
   font-family: "Unbounded";
   padding-top: 25px;
 }
-.block6 .greyy {
+.skidocki .greyy {
   font-size: 18px;
   color: gray;
   font-family: "PP Pangram Sans";
   width: 648px;
 }
-.block6 .bl3 p {
+.skidocki .bl3 p {
   font-size: 28px;
   font-family: "PP Pangram Sans";
   width: 648px;
 }
-.block6 .bl3 {
+.skidocki .bl3 {
   margin-right: 100px;
   margin-top: 60px;
 }
-.block6 .bl4 {
+.skidocki .bl4 {
   width: 536px;
   background-color: white;
   color: black;
   height: 448px;
   border-radius: 25px;
 }
-.block6 .bl4 h3 {
+.skidocki .bl4 h3 {
   font-size: 20px;
   font-family: "PP Pangram Sans";
   padding-left: 25px;
   padding-top: 15px;
 }
-.block6 .bl4 p {
+.skidocki .bl4 p {
   color: gray;
   width: 394px;
   font-family: "PP Pangram Sans";
   padding-left: 25px;
 }
 
-.blocku {
+.nashiuslug {
   margin-top: 40px;
 }
-.blocku .uslygi {
+.nashiuslug .uslygi {
   display: flex;
   padding-top: 50px;
 }
-.blocku .bl5 p {
+.nashiuslug .bl5 p {
   font-size: 20px;
   width: 263px;
   font-family: "PP Pangram Sans";
 }
-.blocku .bl5 {
+.nashiuslug .bl5 {
   padding-left: 25px;
   font-family: "PP Pangram Sans";
 }
-.blocku .usl {
+.nashiuslug .usl {
   font-size: 48px;
   font-family: "PP Pangram Sans";
   padding-left: 65px;
   padding-top: 25px;
 }
-.blocku .f {
+.nashiuslug .f {
   font-family: "Unbounded";
 }
 
-.sect9 {
+.inostran {
   background-image: url(img/bg\ \(14\).png);
   background-repeat: no-repeat;
   color: white;
   height: 1459px;
 }
-.sect9 .angl {
+.inostran .angl {
   display: flex;
   padding-top: 90px;
 }
-.sect9 .rus {
+.inostran .rus {
   display: flex;
   padding-top: 50px;
 }
-.sect9 .s {
+.inostran .s {
   font-size: 48px;
   font-family: "Unbounded";
 }
-.sect9 .p {
+.inostran .p {
   font-size: 28px;
   font-family: "PP Pangram Sans";
 }
-.sect9 .greyyy {
+.inostran .greyyy {
   color: gray;
   font-size: 18px;
   font-family: "PP Pangram Sans";
 }
-.sect9 .photo-s9 {
+.inostran .photo-s9 {
   width: 560px;
   height: 580px;
 }
-.sect9 .text-s9 {
+.inostran .text-s9 {
   width: 648px;
   padding-right: 60px;
 }
-.sect9 .greyyyy {
+.inostran .greyyyy {
   color: gray;
   font-size: 18px;
   font-family: "PP Pangram Sans";
 }
-.sect9 .text-s8 {
+.inostran .text-s8 {
   width: 648px;
   padding-left: 60px;
 }
-.sect9 .bel {
+.inostran .bel {
   color: white;
 }
-.sect9 .li {
+.inostran .li {
   display: flex;
   padding-left: 15px;
 }
-.sect9 .be {
+.inostran .be {
   display: flex;
 }
-.sect9 .iconki {
+.inostran .iconki {
   padding-top: 20px;
   padding-right: 15px;
   padding-left: 15px;
 }
-.sect9 .li p {
+.inostran .li p {
   font-size: 13px;
   font-family: "PP Pangram Sans";
   width: 152px;
 }
 
-.sect10 {
+.logotip {
   width: 1860px;
   background-color: white;
   border-radius: 10px;
   height: 280px;
 }
-.sect10 .s10 {
+.logotip .s10 {
   display: flex;
   justify-content: space-between;
   padding-top: 60px;
   align-items: center;
 }
 
-.sect11 {
+.voprosi {
   padding-top: 90px;
 }
-.sect11 .s11 {
+.voprosi .s11 {
   display: flex;
 }
-.sect11 .s11 h1 {
+.voprosi .s11 h1 {
   padding-top: 15px;
   font-family: "Unbounded";
   font-size: 48px;
   color: #1F1F1F;
 }
-.sect11 .s11 p {
+.voprosi .s11 p {
   padding-top: 50px;
   font-family: "PP Pangram Sans";
   font-size: 18px;
   color: #9F9F9F;
   width: 499px;
 }
-.sect11 .s11 b {
+.voprosi .s11 b {
   padding-top: 40px;
   font-family: "Unbounded";
   font-size: 20px;
   color: #1F1F1F;
   padding-bottom: 60px;
 }
-.sect11 .s11 .fot {
+.voprosi .s11 .fot {
   margin-top: 20px;
   background-color: #FFFFFF;
   width: 448px;
@@ -783,7 +783,7 @@ ul {
   border: solid 0px;
   padding-left: 20px;
 }
-.sect11 .s11 button {
+.voprosi .s11 button {
   margin-top: 20px;
   width: 468px;
   height: 76px;
@@ -791,20 +791,20 @@ ul {
   border-radius: 10px;
   color: #FFFFFF;
 }
-.sect11 .s11 .galoch {
+.voprosi .s11 .galoch {
   padding-top: 0px;
   font-size: 14px;
   width: 321px;
   padding-left: 10px;
 }
-.sect11 .s11 .galoch span {
+.voprosi .s11 .galoch span {
   color: #131313;
 }
-.sect11 .s11 .forms {
+.voprosi .s11 .forms {
   padding-top: 30px;
   display: flex;
 }
-.sect11 .s11 .s11-text {
+.voprosi .s11 .s11-text {
   display: flex;
   flex-direction: column;
   padding-left: 80px;
@@ -912,13 +912,13 @@ footer .chay {
     width: 98px;
     font-weight: 100;
   }
-  .block1 {
+  .promo {
     background-image: url(img/бг\ \(7\).png);
     background-repeat: no-repeat;
     width: 320px;
     margin-top: -30px;
   }
-  .block1 hr {
+  .promo hr {
     margin-top: 20px;
     width: 280px;
   }
@@ -954,7 +954,7 @@ footer .chay {
     margin-left: 0px;
     justify-content: start;
   }
-  .block2 {
+  .Order {
     width: 320px;
     height: 545px;
     left: 0px;
@@ -1091,262 +1091,262 @@ footer .chay {
     width: 280px;
     margin-left: -30px;
   }
-  .block3 {
+  .rental {
     background-image: url(img/бг\ \(1\).png);
     background-repeat: no-repeat;
     width: 320px;
     height: 934px;
   }
-  .block3 .button {
+  .rental .button {
     width: 280px;
     height: 76px;
   }
-  .block3 .dom {
+  .rental .dom {
     display: flex;
     flex-direction: column-reverse;
   }
-  .block3 h1 {
+  .rental h1 {
     font-size: 18px;
     margin-left: 0px;
     padding-top: 40px;
     width: 208px;
     padding-left: 15px;
   }
-  .block3 h3 {
+  .rental h3 {
     font-size: 18px;
     margin-left: 0px;
     width: 280px;
     padding-left: 15px;
   }
-  .block3 .pole {
+  .rental .pole {
     width: 280px;
     height: 76px;
     padding-left: 10px;
   }
-  .block3 button {
+  .rental button {
     width: 280px;
     height: 76px;
     padding-left: 10px;
   }
-  .block3 .opisan p {
+  .rental .opisan p {
     font-size: 14px;
     width: 280px;
     padding-left: 15px;
   }
-  .block3 .razmer {
+  .rental .razmer {
     font-size: 15px;
     width: 246px;
     padding-left: 15px;
   }
-  .block4 h1 {
+  .premium h1 {
     font-size: 18px;
     width: 250px;
   }
-  .block4 .arenda {
+  .premium .arenda {
     display: flex;
     flex-direction: column;
   }
-  .block4 .bl1 {
+  .premium .bl1 {
     width: 280px;
     height: 418px;
     margin-bottom: 25px;
   }
-  .block4 .bl1 p {
+  .premium .bl1 p {
     width: 200px;
     font-size: 14px;
     padding-top: 10px;
   }
-  .block4 img {
+  .premium img {
     width: 280px;
     height: 190px;
   }
-  .block4 .bl1 h2 {
+  .premium .bl1 h2 {
     width: 194px;
     font-size: 16px;
   }
-  .block5 .ger {
+  .steps .ger {
     width: 200px;
     font-size: 18px;
     text-align: start;
     margin-left: 15px;
   }
-  .block5 .shagi {
+  .steps .shagi {
     display: flex;
     flex-direction: column;
   }
-  .block5 .bl2 {
+  .steps .bl2 {
     width: 280px;
     height: 266px;
     display: block;
     margin-bottom: 15px;
   }
-  .block5 .bl2 p {
+  .steps .bl2 p {
     width: 215px;
     font-size: 14px;
   }
-  .block5 .bl2 h5 {
+  .steps .bl2 h5 {
     font-size: 16px;
   }
-  .block5 .bl2 img {
+  .steps .bl2 img {
     padding-top: 20px;
   }
-  .block6 {
+  .skidocki {
     background-image: url(img/бг\ \(2\).png);
     background-repeat: repeat;
     width: 320px;
     height: 1048px;
   }
-  .block6 .skidki {
+  .skidocki .skidki {
     display: flex;
     flex-direction: column-reverse;
   }
-  .block6 .bl4 {
+  .skidocki .bl4 {
     width: 280px;
     height: 364px;
     margin-top: 25px;
   }
-  .block6 .bl4 img {
+  .skidocki .bl4 img {
     width: 280px;
     height: 190px;
   }
-  .block6 .bl4 h3 {
+  .skidocki .bl4 h3 {
     font-size: 16px;
     width: 213px;
   }
-  .block6 .bl4 p {
+  .skidocki .bl4 p {
     font-size: 14px;
     width: 220px;
   }
-  .block6 .bl3 {
+  .skidocki .bl3 {
     margin-right: 15px;
     margin-top: -20px;
   }
-  .block6 .bl3 p {
+  .skidocki .bl3 p {
     width: 280px;
     font-size: 18px;
   }
-  .block6 .greyy {
+  .skidocki .greyy {
     font-size: 14px;
     width: 280px;
   }
-  .blocku .usl {
+  .nashiuslug .usl {
     font-size: 18px;
     padding-left: 15px;
   }
-  .blocku .uslygi {
+  .nashiuslug .uslygi {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
   }
-  .blocku .bl5 {
+  .nashiuslug .bl5 {
     margin-left: -20px;
   }
-  .blocku .bl5 img {
+  .nashiuslug .bl5 img {
     width: 280px;
     height: 190px;
   }
-  .blocku .bl5 p {
+  .nashiuslug .bl5 p {
     font-size: 16px;
     width: 180px;
   }
-  .block7 {
+  .prichini {
     margin-bottom: 45px;
   }
-  .block7 .f {
+  .prichini .f {
     font-size: 18px;
     width: 150px;
     margin-left: -25px;
   }
-  .block7 ul {
+  .prichini ul {
     display: flex;
     flex-direction: column;
     padding-left: 5px;
   }
-  .block7 img {
+  .prichini img {
     width: 80px;
     height: 80px;
   }
-  .block7 h1 {
+  .prichini h1 {
     font-size: 16px;
   }
-  .block7 .b {
+  .prichini .b {
     font-size: 14px;
     width: 184px;
   }
-  .sect9 {
+  .inostran {
     background-image: url(img/бг\ \(3\).png);
     background-repeat: no-repeat;
     width: 320px;
     height: 1566px;
   }
-  .sect9 .angl {
+  .inostran .angl {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
     margin-bottom: -350px;
   }
-  .sect9 .text-s9 {
+  .inostran .text-s9 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 25px;
   }
-  .sect9 .s {
+  .inostran .s {
     font-size: 18px;
     width: 250px;
     padding-left: 5px;
   }
-  .sect9 .p {
+  .inostran .p {
     font-size: 18px;
     width: 280px;
     padding-left: 25px;
   }
-  .sect9 .greyyy {
+  .inostran .greyyy {
     font-size: 18px;
     width: 280px;
     padding-left: 25px;
   }
-  .sect9 .k {
+  .inostran .k {
     width: 280px;
     height: 210px;
     padding-left: 135px;
   }
-  .sect9 .rus {
+  .inostran .rus {
     display: flex;
     flex-direction: column;
   }
-  .sect9 .iconki img {
+  .inostran .iconki img {
     width: 21px;
     height: 21px;
   }
-  .sect9 .li {
+  .inostran .li {
     display: flex;
     flex-direction: column;
   }
-  .sect9 .h {
+  .inostran .h {
     width: 280px;
     height: 210px;
     padding-left: 0px;
   }
-  .sect9 .j {
+  .inostran .j {
     width: 250px;
     font-size: 18px;
     padding-left: 150px;
   }
-  .sect9 .greyyyy {
+  .inostran .greyyyy {
     font-size: 14px;
     width: 280px;
     padding-left: 150px;
   }
-  .sect9 .iconki {
+  .inostran .iconki {
     padding-left: 10px;
   }
-  .sect10 {
+  .logotip {
     width: 320px;
     height: 347px;
   }
-  .sect10 .s10 {
+  .logotip .s10 {
     padding-top: 10px;
     display: flex;
     flex-direction: row;
@@ -1355,47 +1355,47 @@ footer .chay {
     height: 347px;
     justify-content: center;
   }
-  .sect11 {
+  .voprosi {
     padding-top: 30px;
   }
-  .sect11 .s11 {
+  .voprosi .s11 {
     display: flex;
     flex-direction: column-reverse;
   }
-  .sect11 .s11 img {
+  .voprosi .s11 img {
     width: 144px;
     height: 225px;
   }
-  .sect11 .s11 h1 {
+  .voprosi .s11 h1 {
     padding-left: 20px;
     font-size: 18px;
     width: 250px;
   }
-  .sect11 .s11 p {
+  .voprosi .s11 p {
     font-size: 14px;
     width: 280px;
     padding-left: 20px;
     padding-top: 0px;
   }
-  .sect11 .s11 b {
+  .voprosi .s11 b {
     font-size: 18px;
     width: 202px;
     padding-left: 20px;
     padding-top: 0px;
     padding-bottom: 40px;
   }
-  .sect11 .s11 .fot {
+  .voprosi .s11 .fot {
     width: 280px;
     height: 76px;
     padding-left: 0px;
   }
-  .sect11 .s11 .fot::-moz-placeholder {
+  .voprosi .s11 .fot::-moz-placeholder {
     padding-left: 50px;
   }
-  .sect11 .s11 .fot::placeholder {
+  .voprosi .s11 .fot::placeholder {
     padding-left: 50px;
   }
-  .sect11 .s11 button {
+  .voprosi .s11 button {
     width: 280px;
     height: 76px;
   }

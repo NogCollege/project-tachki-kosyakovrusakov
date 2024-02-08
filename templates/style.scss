@@ -89,7 +89,7 @@ header {
 ul{
     list-style: none;
 }
-.block1{
+.promo{
     background-image: url(img/бг\ \(5\).png);
     width: 1860px;
     height: 966px;
@@ -125,11 +125,11 @@ ul{
     list-style: none;
     position: relative;
   }}
-.block1 hr{
+.promo hr{
   width: 1350px;
   margin-top: 50px;
 }
-.block2{
+.Order{
   position: absolute;
   left: 15%;
   bottom: -25%;
@@ -226,7 +226,7 @@ ul{
 .avtopark h1{
   font-size: 48px;
 }
-.block7 li{
+.prichini li{
     display: flex;
 }
 .b{
@@ -234,17 +234,17 @@ ul{
     padding-left: 20px;
     width: 184px;
 }
-.block7 p{
+.prichini p{
     margin-bottom: -10px;
 }
 
-.block7 ul {
+.prichini ul {
     column-count: 2;
     column-gap: 20px;
     width: 100%; 
 }
 
-.block7 li {
+.prichini li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -432,7 +432,7 @@ ul{
   color: grey;
   width: 1208px;
 }
-.block3{
+.rental{
   background-image: url(img/бг\ \(4\).png);
   background-repeat: no-repeat;
   width: 100%;
@@ -493,7 +493,7 @@ ul{
       font-size: 14px;
     }
 }
-.block4{
+.premium{
     .arenda{
       display: flex;
       justify-content: space-around;
@@ -529,7 +529,7 @@ ul{
       padding-top: 25px;
     }
 }
-.block5{
+.steps{
     .shagi{
       display: flex;
       justify-content: space-around;
@@ -569,7 +569,7 @@ ul{
       color: #181818;
     }
 }
-.block6{
+.skidocki{
   background-image: url(img/бг\ \(6\).png);
   background-repeat: no-repeat;
   width: 100%;
@@ -618,7 +618,7 @@ ul{
       padding-left: 25px;
     }
 }
-.blocku{
+.nashiuslug{
   margin-top: 40px;
     .uslygi{
       display: flex;
@@ -643,7 +643,7 @@ ul{
       font-family: "Unbounded";
     }
 }
-.sect9{
+.inostran{
   background-image: url(img/bg\ \(14\).png);
   background-repeat: no-repeat;
   color: white;
@@ -709,7 +709,7 @@ ul{
       width: 152px;
     }
 }
-.sect10{
+.logotip{
   width: 1860px;
   background-color: white;
   border-radius: 10px;
@@ -721,7 +721,7 @@ ul{
       align-items: center;
   }
 }
-.sect11{
+.voprosi{
   padding-top: 90px;
   .s11{
       display: flex;
@@ -905,13 +905,13 @@ footer{
       font-weight: 100;
     }
   }
-  .block1{
+  .promo{
     background-image: url(img/бг\ \(7\).png);
     background-repeat: no-repeat;
     width: 320px;
     margin-top: -30px;
   }
-  .block1 hr{
+  .promo hr{
     margin-top: 20px;
     width: 280px;
   }
@@ -948,7 +948,7 @@ footer{
     margin-left: 0px;
     justify-content: start;
   }
-  .block2{
+  .Order{
     width: 320px;
     height: 545px;
     left: 0px;
@@ -1097,7 +1097,7 @@ footer{
     margin-left: -30px;
   }
 }
-.block3{
+.rental{
   background-image: url(img/бг\ \(1\).png);
   background-repeat: no-repeat;
   width: 320px;
@@ -1129,22 +1129,22 @@ footer{
       padding-left: 10px;
     }
 }
-  .block3 button{
+  .rental button{
     width: 280px;
     height: 76px;
     padding-left: 10px;
   }
-.block3 .opisan p {
+.rental .opisan p {
   font-size: 14px;
   width: 280px;
   padding-left: 15px;
 }
-.block3 .razmer {
+.rental .razmer {
   font-size: 15px;
   width: 246px;
   padding-left: 15px;
 }
-.block4{
+.premium{
   h1{
     font-size: 18px;
     width: 250px;
@@ -1172,7 +1172,7 @@ footer{
       font-size: 16px;
   }
 }
-.block5{
+.steps{
   .ger{
     width: 200px;
     font-size: 18px;
@@ -1200,7 +1200,7 @@ footer{
   padding-top: 20px;
  }
 }
-.block6{
+.skidocki{
   background-image: url(img/бг\ \(2\).png);
   background-repeat: repeat;
   width: 320px;
@@ -1239,7 +1239,7 @@ footer{
     width: 280px;
   }
 }
-.blocku{
+.nashiuslug{
   .usl{
     font-size: 18px;
     padding-left: 15px;
@@ -1262,7 +1262,7 @@ footer{
 
   }
 }
-.block7{
+.prichini{
   margin-bottom: 45px;
   .f{
    font-size: 18px;
@@ -1286,7 +1286,7 @@ footer{
     width: 184px;
   }
 }
-.sect9{
+.inostran{
   background-image: url(img/бг\ \(3\).png);
   background-repeat: no-repeat;
   width: 320px;
@@ -1356,7 +1356,7 @@ footer{
     padding-left: 10px;
   }
   }
-  .sect10{
+  .logotip{
     width: 320px;
     height: 347px;
     .s10{
@@ -1369,7 +1369,7 @@ footer{
       justify-content: center;
     }
   }
-  .sect11{
+  .voprosi{
     padding-top: 30px;
     .s11{
       display: flex;
