@@ -12,8 +12,8 @@
               <li>Контакты</li>
             </div>
             <div class="media no-vid">
-              <li><img src="img/Vector (33).png" alt=""></li>
-              <li><img src="img/Vector (32).png" alt=""></li>
+              <li><img src="templates\img/Vector (33).png" alt=""></li>
+              <li><img src="templates\img/Vector (32).png" alt=""></li>
             </div>
             <div class="nomer no-vid">
               <li>7 (499) 110-20-47</li>
@@ -22,8 +22,8 @@
               <li><button>Заказать звонок</button></li>
             </div>
             <div class="fotop">
-              <li><img src="img/Group 71 (1).png" alt=""></li>
-              <li><img src="img/Group 72 (1).png" alt=""></li>
+              <li><img src="templates\img/Group 71 (1).png" alt=""></li>
+              <li><img src="templates\img/Group 72 (1).png" alt=""></li>
             </div>
           </ul>
         </div>
