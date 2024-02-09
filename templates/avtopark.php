@@ -37,7 +37,7 @@
                         <h4>BMW X2, 2021</h4>
                         <div class="text-s2">
                             <p> <img src="templates\img/Vector (8).png" alt="">2,3 л/бензин</p>
-                            <p class="pa"> <img src="img/Vector (9).png" alt="">317 л.с.</p>
+                            <p class="pa"> <img src="templates\img/Vector (9).png" alt="">317 л.с.</p>
                         </div>
                         <hr size="1px">
                         <div class="cen">

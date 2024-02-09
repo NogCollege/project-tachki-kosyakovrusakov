@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <?php
     require 'controllers\head.php';
     ?>
@@ -47,6 +46,5 @@
     <?php
     require "templates\Footer.php";
     ?>
-
 </body>
 </html>
