@@ -3,6 +3,15 @@
             <h1>Наш автопарк</h1>
             <button class="smtr">Смотреть все</button>
         </div>
+        <?php
+        require '../controllers/connect.php';
+        $query = "SELECT * FROM catalog";
+        $result = mysqli_query($conn, $query);
+
+        mysqli_close($conn);
+?>
+
+        ?>
         <div class="tri container">
             <ul class="catalog">
                 <li class="dark">
