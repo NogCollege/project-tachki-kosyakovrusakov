@@ -355,6 +355,7 @@ ul {
 .katal {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   -moz-column-count: 2;
        column-count: 2;
 }
