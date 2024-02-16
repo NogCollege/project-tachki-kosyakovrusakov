@@ -43,7 +43,7 @@
         $result .= '
         <li class="vis">
         <div class="img-kat">
-        <img src="templates/img/image 22 (4).png" alt="">
+        <img src="templates/img/photos/'.$elem['id'].'-'.$elem['nazvan']  .'/main.jpg" alt="">
         </div>';
         $result .= ' <h4>'. $elem['fullname'] . ', '. $elem['god'] . '</h4>';
         $result .= '<div class="text-s2">

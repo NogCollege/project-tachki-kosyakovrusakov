@@ -371,8 +371,10 @@ ul {
   margin-left: 20px;
 }
 .katal li img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
   width: 286px;
-  height: 153px;
 }
 .katal li h4 {
   font-size: 20px;
