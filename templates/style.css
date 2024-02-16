@@ -388,6 +388,10 @@ ul {
   padding-top: 15px;
   padding-left: 40px;
 }
+.katal li .text-s2 button {
+  border: none;
+  outline: none;
+}
 .katal li .text-s2 img {
   width: 25px;
   height: 18px;

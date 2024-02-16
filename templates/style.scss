@@ -350,7 +350,9 @@ ul{
           flex-direction: row;
           padding-top: 15px;
           padding-left: 40px;
-
+          button{
+            border: none; outline: none;
+          }
           img{
               width: 25px;
               height: 18px;
@@ -399,7 +401,6 @@ ul{
 
           }
       }
-
       .img-kat{
           display: flex;
           align-items: center;
