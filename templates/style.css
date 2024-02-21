@@ -310,6 +310,18 @@ ul {
   border-radius: 15px;
 }
 
+.butact {
+  background: #1f1f1f;
+  color: #fff;
+  border: 1px solid #000;
+}
+.butact img {
+  filter: invert(100%);
+}
+.butact:hover {
+  background: #565656;
+}
+
 .svet {
   background-color: #FFFFFF;
   width: 204px;
@@ -318,10 +330,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.svet:hover {
-  background-color: gray;
 }
 
 .grey {

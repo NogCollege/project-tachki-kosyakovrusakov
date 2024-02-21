@@ -263,7 +263,9 @@ ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+
 }
+     
 .avtopark{
   margin-top: 200px;
 }
@@ -277,6 +279,17 @@ ul{
   align-items: center;
   border-radius: 15px;
 }
+.butact {
+  background: #1f1f1f;
+  color: #fff;
+  border: 1px solid #000;
+  img {
+      filter: invert(100%);
+  }
+    &:hover {
+        background: #565656;
+      }
+    }
 .svet{
   background-color: #FFFFFF;
   width: 204px;
@@ -286,9 +299,7 @@ ul{
   justify-content: center;
   align-items: center;
 }
-.svet:hover{
-  background-color: gray;
-}
+
 .grey{
   display: flex;
   justify-content: center;

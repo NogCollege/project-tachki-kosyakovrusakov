@@ -6,72 +6,37 @@
         <div class="tri container">
             <ul class="catalog">
                 <li>
-                    <button class="button-cat dark" data-category="Внедорожники">
+                    <button class="button-cat dark" data-category="suv">
                     <img src="templates\img/Group 47.png" alt=""> 
-                    Внедорожники
+                    <p>Внедорожники</p> 
                     </button>
                 </li>
                 <li >
-                    <button class="button-cat svet s1" data-category="Бизнес">
+                    <button class="button-cat svet s1" data-category="business">
                     <img src="templates\img/Group 47 (1).png" alt="">
-                    Бизнес
+                    <p>Бизнес</p> 
                     </button>
                 </li>
                 <li>
-                    <button class="button-cat svet s1" data-category="Спорткар">
+                    <button class="button-cat svet s1" data-category="sport">
                     <img src="templates\img/Group 48 (1).png" alt="">
-                    Спорткар
+                    <p>Спорткар</p> 
                     </button>
                 </li>
                 <li>
-                    <button class="button-cat svet s1" data-category="Премиум">
+                    <button class="button-cat svet s1" data-category="premium">
                     <img src="templates\img/Group 47 (2).png" alt="">
-                   <p>Премиум</p>
+                    <p>Премиум</p>
                    </button>
                 </li>
                 <li>
-                    <button class="button-cat svet s1" data-category="Комфорт">
+                    <button class="button-cat svet s1" data-category="comfort">
                     <img src="templates\img/Group 47 (3).png" alt="">
                     <p>Комфорт</p>
                     </button>
                 </li>
             </ul>
         </div>
-    <script>
-        let buttons = document.querySelectorAll('.button-cat')
-
-        let category = new Map([
-        ['Внедорожники', document.querySelectorAll('.cat-Внедорожники')],
-        ['Бизнес', document.querySelectorAll('.cat-Бизнес')],
-        ['Спорткар', document.querySelectorAll('.cat-Спорткар')],
-        ['Премиум', document.querySelectorAll('.cat-Премиум')],
-        ['Комфорт', document.querySelectorAll('.cat-Комфорт')]
-]); 
-        let allCards = document.querySelectorAll('.catalog-list-item')
-        function DisplayCards(cat) {
-            allCards.forEach((card) => {
-                card.style.display = 'none'
-})
-        category.get(cat).forEach((card) => {
-            card.style.display = 'block'
-})
-}
-        for (let button of buttons) {
-            button.addEventListener("click", function() {
-                if (!button.classList.contains("button-active")) {
-                    console.log("Нажатие на неактивную кнопку")
-                    buttons.forEach((button) => {
-                        button.classList.remove("button-active") // убираем класс у всех кнопок
-                        this.classList.add("button-active") // добавляем класс к нажатой кнопке
-                    })
-                DisplayCards(this.dataset.category)
-                } else {
-                console.log("Нажатие на активную кнопку")
-            }
-        })
-    }
-
-</script>
 <?php 
     require_once ("controllers/connect.php");
     
@@ -86,7 +51,7 @@
     foreach ($data as $elem){
         $result = '';
         $result .= '
-        <li class="vis">
+        <li class="vis-biba '.$elem['categoria'] .'">
         <div class="img-kat">
         <img src="templates/img/photos/'.$elem['id'].'-'.$elem['nazvan']  .'/main.jpg" alt="">
         </div>';
@@ -107,3 +72,48 @@
 
 ?>
 </section>
+
+<script>
+    let buttons = document.querySelectorAll('.button-cat')
+
+    let category = new Map([
+        ['suv', document.querySelectorAll('.Внедорожник')],
+        ['business', document.querySelectorAll('.Бизнес')],
+        ['sport', document.querySelectorAll('.Спорткар')],
+        ['premium', document.querySelectorAll('.Премиум')],
+        ['comfort', document.querySelectorAll('.Комфорт')]
+    ]); 
+    let allCards = document.querySelectorAll('.vis-biba')
+    function DisplayCards(cat) {
+            allCards.forEach((card) => {
+            card.style.display = 'none'
+        })
+        category.get(cat).forEach((card) => {
+            card.style.display = 'block'
+        })
+    }
+    for (let button of buttons) {
+        button.addEventListener("click", function() {
+            if (!button.classList.contains("butact")) {
+                console.log("Нажатие на неактивную кнопку")
+                buttons.forEach((button) => {
+                    button.classList.remove("butact") // убираем класс у всех кнопок
+                    this.classList.add("butact") // добавляем класс к нажатой кнопке
+                })
+            DisplayCards(this.dataset.category)
+            } else {
+            console.log("Нажатие на активную кнопку")
+        }
+    })
+    }
+
+    document.querySelector('.textov button').addEventListener('click', function(evt) {
+        evt.preventDefault();
+        allCards.forEach((card) => {
+            card.style.display = 'block';
+        })
+        buttons.forEach((button) => {
+            button.classList.remove("button-active")
+        })
+    })
+</script>
