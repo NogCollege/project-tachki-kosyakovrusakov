@@ -1,5 +1,5 @@
 <?php 
-    require_once('connect.php');
+    require_once('controllers/connect.php');
 
     if ($link->connect_error) {
         die("Ошибка подключения к базе данных: " . $link->connect_error);
@@ -14,9 +14,9 @@
             $name = $row["nazvan"];
             $folderName = $id . "-" . preg_replace("/[^A-Za-z0-9]/", "", $name);
 
-            $folderPath = "../templates/img/photos/" . $folderName;
+            $folderPath = "./templates/img/photos/" . $folderName;
             if (!is_dir($folderPath)) {
-                mkdir($folderPath);
+                mkdir($folderPath,0777, true);
                 echo "Папка " . $folderName . " успешно создана.<br>";
             }
         }

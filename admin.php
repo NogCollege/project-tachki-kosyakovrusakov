@@ -20,10 +20,30 @@
 <? 
     require_once('controllers/connect.php');
     
+    if (!empty($_POST)) {
+        $nazvan = $_POST['nazvan'];
+        $gorod = $_POST['gorod'];
+        $categoria = $_POST['categoria'];
+        $fullname = $_POST['fullname'];
+        $god = $_POST['god'];
+        $Dvigatel = $_POST['Dvigatel'];
+        $loshadki = $_POST['loshadki'];
+        $max = $_POST['max'];
+        $mid = $_POST['mid'];
+        $min = $_POST['min'];
+        $opisanie = $_POST['opisanie'];
+    
+        $query = "INSERT INTO catalogg SET nazvan='$nazvan',
+        gorod='$gorod', fullname='$fullname', god='$god', Dvigatel='$Dvigatel', loshadki='$loshadki', max='$max', mid='$mid', min='$min',opisanie ='$opisanie'";
+        mysqli_query($link, $query) or die(mysqli_error($link));
+        
+        require_once('controllers/create_folders.php');
+    }
+
    if(isset($_GET['delet'])){
     $delet = $_GET['delet'];
-    $query= "INSERT INTO `deleted` SELECT * FROM `catalog` WHERE `id` = 4
-    DELETE FROM `catalog` WHERE `id` = 4";
+    $query= "INSERT INTO `deleted` SELECT * FROM `catalog` WHERE `id` = $delet";
+    $query= "DELETE FROM `catalogg` WHERE `id` = $delet";
     mysqli_query($link,$query) or die (mysqli_error($link));
    }
 
@@ -34,7 +54,7 @@
     for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
 
     echo '<table>';
-    foreach($data as $elem);{
+    foreach($data as $elem){
         $result = '';
         $result .='<tr>';
         $result .='<td>' .$elem['nazvan']. '</td>';
@@ -49,10 +69,27 @@
         $result .='<td>' .$elem['mid']. '</td';
         $result .='<td>' .$elem['min']. '</td';
         $result .='<td>' .$elem['opisanie']. '</td';
-        $result .= '<td><a href="">удалить</a></td>';
+        $result .= '<td><a href="?delet='.$elem['id'].'">удалить</a></td>';
 
         $result .='</tr>';
+        echo $result;
     }
-    echo '</tr>'
+    echo '</table>'
 ?>
 </table>
+<form action="" method="POST">
+    <input name="nazvan" >
+    <input name="gorod" >
+    <input name="categoria">
+    <input name="fullname">
+    <input name="god">
+    <input name="Dvigatel">
+    <input name="volume">
+    <input name="loshadki">
+    <input name="max">
+    <input name="mid">
+    <input name="min" >
+    <input name="opisanie">
+    <input type="submit" value="добавить Авто">
+
+</form>
