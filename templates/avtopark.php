@@ -6,8 +6,8 @@
         <div class="tri container">
             <ul class="catalog">
                 <li>
-                    <button class="button-cat dark" data-category="suv">
-                    <img src="templates\img/Group 47.png" alt=""> 
+                    <button class="button-cat svet" data-category="suv">
+                    <img src="templates\img/Group_47__4_.png" alt=""> 
                     <p>Внедорожники</p> 
                     </button>
                 </li>
@@ -62,17 +62,16 @@
         </div>';
         $result .= '<hr size="1px">';
         $result .= '<div class="cen">
-            <button>Забронировать</button><p>от <span>'.$elem['mid'].'</span>руб/сут.</p>
+        <a href="Fullopisanie.php?id='.$elem['id'].'"><button>Забронировать</button></a><p>от <span>'.$elem['mid'].'</span>руб/сут.</p>
         </div>';
         $result .= '</li>';
 
         echo $result;
     }
     echo '</ul></div>';
-
+ 
 ?>
 </section>
-
 <script>
     let buttons = document.querySelectorAll('.button-cat')
 
