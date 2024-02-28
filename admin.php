@@ -13,6 +13,7 @@
         <th>mid</th>
         <th>min</th>
         <th>opisanie</th>
+        <th>photos</th>
         <th>delete</th>
     </tr>
 
@@ -36,7 +37,7 @@
         $query = "INSERT INTO catalogg SET nazvan='$nazvan',
         gorod='$gorod', fullname='$fullname', god='$god', Dvigatel='$Dvigatel', loshadki='$loshadki', max='$max', mid='$mid', min='$min',opisanie ='$opisanie'";
         mysqli_query($link, $query) or die(mysqli_error($link));
-        
+
         require_once('controllers/create_folders.php');
     }
 
@@ -69,6 +70,7 @@
         $result .='<td>' .$elem['mid']. '</td';
         $result .='<td>' .$elem['min']. '</td';
         $result .='<td>' .$elem['opisanie']. '</td';
+        $result .='<td><a href="controllers/upload-photos.php">Фотографии</a></td>';
         $result .= '<td><a href="?delet='.$elem['id'].'">удалить</a></td>';
 
         $result .='</tr>';
