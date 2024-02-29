@@ -1,3 +1,6 @@
+<?php
+    require 'controllers\head.php';
+    ?>
 <table>
     <tr>
         <th>id </th>
@@ -79,19 +82,19 @@
     echo '</table>'
 ?>
 </table>
-<form action="" method="POST">
-    <input name="nazvan" >
-    <input name="gorod" >
-    <input name="categoria">
-    <input name="fullname">
-    <input name="god">
-    <input name="Dvigatel">
-    <input name="volume">
-    <input name="loshadki">
-    <input name="max">
-    <input name="mid">
-    <input name="min" >
-    <input name="opisanie">
+<form class="block" action="" method="POST">
+    <input name="nazvan" placeholder="nazvanie">
+    <input name="gorod" placeholder="gorod">
+    <input name="categoria" placeholder="categoria">
+    <input name="fullname" placeholder='fullname'>
+    <input name="god" placeholder='god'>
+    <input name="Dvigatel" placeholder='dvigatel'>
+    <input name="volume" placeholder="volume">
+    <input name="loshadki" placeholder="loshadki">
+    <input name="max" placeholder="max">
+    <input name="mid" placeholder='mid'>
+    <input name="min" placeholder="min" >
+    <input name="opisanie" placeholder='opisanie'>
     <input type="submit" value="добавить Авто">
 
 </form>
