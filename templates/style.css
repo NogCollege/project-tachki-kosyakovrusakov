@@ -1032,6 +1032,12 @@ footer .chay {
   margin-top: 80px;
 }
 
+.block {
+  display: inline-block;
+  width: 150px;
+  margin-top: 25px;
+}
+
 @media screen and (max-width: 320px) {
   body {
     max-width: 320px;
@@ -1129,10 +1135,8 @@ footer .chay {
     margin-top: 15px;
     margin-left: 0px;
   }
-  .dark {
-    width: 159px;
-    height: 36px;
-    margin-left: 0px;
+  .svet {
+    width: 129px;
   }
   .s2 {
     margin-left: 5px;
@@ -1141,7 +1145,7 @@ footer .chay {
   }
   .s1 {
     margin-left: 5px;
-    width: 112px;
+    width: 122px;
     height: 36px;
   }
   .s3 {
